@@ -1,0 +1,23 @@
+# Core Dependencies
+langchain-community>=0.0.20
+langchain-text-splitters>=0.0.1
+langchain-huggingface>=0.0.1
+faiss-cpu>=1.7.4
+pypdf>=3.17.0
+tqdm>=4.66.0
+
+# Embedding Model
+sentence-transformers>=2.2.2
+torch>=2.0.0
+
+# Optional: For better PDF handling
+pdfminer.six>=20221105
+
+# Optional: For enhanced text processing
+nltk>=3.8.1
+spacy>=3.7.0
+
+# Development & Testing
+pytest>=7.4.0
+black>=23.12.0
+flake8>=7.0.0
